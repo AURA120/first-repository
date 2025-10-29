@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!ELEMENT element-name (#PCDATA)> --> <!--for create a tag, #PCDATA like string data type-->
+
+
+<!--to create normal tag-->
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+
+
+<!--to create head tag-->
+<!ELEMENT student (id,name,age,city)>
+
+
+<!--Root tag setting-->
+<!ELEMENT students (student*)>
+
+
+<!--section attribute-->
+<!ATTLIST student gender (Male|Female) #REQUIRED> <!--ATTLIST = attribute list-->
+
+<!--type attribute-->
+<!ATTLIST age B_day CDATA #REQUIRED>

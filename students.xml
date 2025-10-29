@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students SYSTEM "format.dtd">
+
+<students>
+
+  <student gender ="Male">
+      <id>1</id>
+      <name>Amal</name>
+      <age B_day ="1995-12-12">22</age>
+      <city>Colombo</city>
+  </student>
+
+<student gender ="Female">
+      <id>2</id>
+      <name>Sahani</name>
+      <age B_day ="2005-01-10">20</age>
+      <city>Mathara</city>
+  </student>
+  
+</students>
